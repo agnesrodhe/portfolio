@@ -160,3 +160,21 @@ blockquote {
 .nav ul li:hover {
     background-color: seagreen;
 }
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bitter&display=swap');
+.old-fashioned {
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.35;
+    width: 64rem;
+    color: black;
+    letter-spacing: 0;
+}
+
+.modern {
+    font-family: 'Amatic SC', cursive;
+}
+
+.worst-ever {
+    color: brown;
+}
