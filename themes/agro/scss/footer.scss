@@ -1,0 +1,17 @@
+@import 'variables';
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid $border-color-footer;
+    min-height: 100px;
+
+    a {
+        color: $icon-color;
+        text-decoration: none;
+    }
+}
+
+.footer .social {
+    font-size: 2rem;
+}

@@ -5,10 +5,15 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 
 @import '../../node_modules/normalize.css/normalize.css';
+@import '../css/mobile-menu.css';
 @import 'blockquote';
 @import 'code';
 @import 'typography';
 @import 'variables';
+@import 'header';
+@import 'main';
+@import 'footer';
+@import 'media-queries';
 
 * {
     box-sizing: border-box;
@@ -17,20 +22,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     padding: 0;
 }
 
-ol, ul {
-    padding-left: 1.5em;
-}
-
-.hidden {
-    display: none !important;
-}
-
-html, body {
-    height: 100%;
-}
-
-/* Placement */
-
 body {
     background-color: $background-color;
     display: flex;
@@ -38,24 +29,13 @@ body {
     margin: 10px;
 }
 
-.main {
-    flex: 1 0 auto;
-
-    p {
-        width: 64rem;
-        max-width: 100%;
-    }
-
-    .meimage {
-        float: right;
-        margin-left: 10px;
-        margin-bottom: 10px;
-        max-width: 100%;
-    }
-
+ol,
+ul {
+    padding-left: 1.5em;
 }
 
-.header, .footer {
+.header,
+.footer {
     flex: 0 0 auto;
 }
 
@@ -63,90 +43,6 @@ p {
     padding-bottom: 10px;
 }
 
-
-
-.title p {
-    text-align: center;
-}
-
-.title h1 {
-    text-align: center;
-    margin-top: 6%;
-}
-
-/* Header */
-
-.header, .site-header {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.nav {
-    border-top: solid;
-    border-bottom: solid;
-    border-color: $border-color;
-}
-/* Title */
-
-.title, .logo {
-    padding: 1em 1em 1em 0;
-}
-
-.title {
-    width: 100%;
-}
-
-@media (max-width: 767px) {
-    .title, .logo {
-        padding: 1em 1em 1em 0;
-    }
-    .title {
-        min-width: 50%;
-    }
-    .logo {
-        max-width: 30%;
-    }
-}
-
-.title * {
-    color: $title-color;
-}
-
-.title p {
-    font-style: italic;
-}
-
-/* Footer */
-
-.footer {
-    display: flex;
-    justify-content: space-between;
-    border-top: 1px solid $border-color-footer;
-    min-height: 100px;
-}
-
-.footer a {
-    color: #222;
-}
-
-.footer .social {
-    font-size: 2rem;
-}
-
-/* Typografy */
-
 img {
     max-width: 100%;
-}
-
-.nav ul li:hover {
-    background-color: $nav-color;
-}
-
-.nav ul li:active {
-    background-color: $nav-color;
-}
-.social a {
-    text-decoration: none;
 }

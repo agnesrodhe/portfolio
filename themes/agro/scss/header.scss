@@ -1,0 +1,46 @@
+@import 'variables';
+
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav {
+    border-top: solid;
+    border-bottom: solid;
+    border-color: $border-color;
+    
+    li {
+        width: auto;
+        margin-bottom: 0;
+    }
+
+    ul li:hover {
+        background-color: $nav-color;
+    }
+    
+    ul li:active {
+        background-color: $nav-color;
+    }
+}
+
+.title,
+.logo {
+    padding: 1em 1em 1em 0;
+}
+
+.title {
+    width: 100%;
+
+    h1 {
+        text-align: center;
+        margin-top: 7%;
+        line-height: 0;
+    }
+
+    p {
+        text-align: center;
+    }
+}

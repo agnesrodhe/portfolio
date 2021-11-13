@@ -1,0 +1,16 @@
+
+.main {
+    flex: 1 0 auto;
+
+    p {
+        width: 64rem;
+        max-width: 100%;
+    }
+
+    .meimage {
+        float: right;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        max-width: 100%;
+    }
+}
