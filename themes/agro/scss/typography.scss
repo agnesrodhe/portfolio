@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Nanum+Myeongjo&display=swap');
+
+@import 'variables';
+
+html {
+    font-size: 100%;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5rem;
-    color: #444;
+    color: $font-color;
 }
 
 p, td, th, li, dd {
-    text-align: justify;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
+    font-size: 1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,3 +21,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     font-family: 'Nanum Myeongjo', serif;;
 }
+
+.title h1 {
+    font-size: 2.5em;
+}
+
+a {
+    text-decoration: none;
+}
+

@@ -6149,6 +6149,10 @@ pre code {
   line-height: 1.4;
 }
 
+html {
+  font-size: 100%;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5rem;
@@ -6156,15 +6160,21 @@ body {
 }
 
 p, td, th, li, dd {
-  text-align: justify;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
+  font-size: 1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
   font-family: "Nanum Myeongjo", serif;
+}
+
+.title h1 {
+  font-size: 2.5em;
+}
+
+a {
+  text-decoration: none;
 }
 
 * {
@@ -6197,6 +6207,16 @@ body {
 .main {
   flex: 1 0 auto;
 }
+.main p {
+  width: 64rem;
+  max-width: 100%;
+}
+.main .meimage {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
 
 .header, .footer {
   flex: 0 0 auto;
@@ -6206,21 +6226,35 @@ p {
   padding-bottom: 10px;
 }
 
-.meimage {
-  float: right;
-  margin-left: 10px;
-  margin-bottom: 10px;
+.title p {
+  text-align: center;
+}
+
+.title h1 {
+  text-align: center;
+  margin-top: 6%;
 }
 
 /* Header */
 .header, .site-header {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+}
+
+.nav {
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #f3f2e7;
 }
 
 /* Title */
 .title, .logo {
-  padding: 3em 3em 3em 0;
+  padding: 1em 1em 1em 0;
+}
+
+.title {
+  width: 100%;
 }
 
 @media (max-width: 767px) {
@@ -6249,6 +6283,7 @@ p {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #222;
+  min-height: 100px;
 }
 
 .footer a {
@@ -6265,7 +6300,11 @@ img {
 }
 
 .nav ul li:hover {
-  background-color: seagreen;
+  background-color: #f3f2e7;
+}
+
+.nav ul li:active {
+  background-color: #f3f2e7;
 }
 
 .social a {
