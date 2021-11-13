@@ -1,8 +1,14 @@
 ---
 Logo: image/rainbow-flower2.jpg
-Tagline: My portfolio.
+Tagline: Min portfolio
 Social:
-    - title: Link till sidans github repo.
+    - title: Länk till sidans github repo.
       url: https://github.com/agnesrodhe/portfolio
-      icon: github
+      icon: fab fa-github
+    - title: Länk till Agnes bästa spotifyalbum
+      url: https://open.spotify.com/album/5lhuiWh3N7BlQ5islL9zvH?si=FTBEg1PeSPmZPlpdIJ3l1Q
+      icon: fab fa-spotify
+    - title: Länk till dbwebbs Youtube
+      url: https://www.youtube.com/c/DbwebbSe
+      icon: fab fa-youtube
 ---
