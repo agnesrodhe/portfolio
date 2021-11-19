@@ -2,18 +2,29 @@
 
 .technology-container {
     display: grid;
-    gap: 2em 2em;
+    gap: 3em 3em;
     grid-template-columns: 1fr 1fr 1fr;
-}
 
-.technology-container h1 {
-    grid-column: span 3;
-    text-align: center;
+    h1 {
+        grid-column: span 3;
+        text-align: center;
+    }
+
 }
 
 .technology {
-    min-height: 200px;
+    min-height: 64px;
     border: 2px solid black;
+    text-align: center;
+    font-size: 2rem;
+    padding: 8px;
+    color: $font-color;
+}
+
+.technology:hover {
+    box-shadow: 1px 1px 8px 1px mediumorchid;
+    color: $nav-color;
+    background-color: $icon-color;
 }
 
 .sidebar {
@@ -29,10 +40,13 @@
     a {
         color: black;
         font-weight: 300;
+        padding: 4px;
     }
 
     a:hover {
+        box-shadow: 1px 1px 8px 1px mediumorchid;
         color: $nav-color;
+        background-color: $icon-color;
     }
 
     li {

@@ -14,16 +14,24 @@
 
     .technology-container {
         grid-template-columns: none;
-    }
+        gap: 1em 1em;
+        align-content: baseline;
 
-    .technology-container h1 {
-        grid-column: span 1;
+        h1 {
+            grid-column: span 1;
+        }
+
+        a {
+            margin-bottom: 0;
+        }
     }
 
     .technology {
         grid-column: span 3;
-        min-height: 200px;
+        min-height: 50px;
         border: 2px solid black;
+        max-width: 100%;
+        margin-bottom: 0;
     }
 
     .sidebar {

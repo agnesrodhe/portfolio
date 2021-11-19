@@ -6131,18 +6131,27 @@ readers do not read off random characters that represent icons */
 
 .technology-container {
   display: grid;
-  gap: 2em 2em;
+  gap: 3em 3em;
   grid-template-columns: 1fr 1fr 1fr;
 }
-
 .technology-container h1 {
   grid-column: span 3;
   text-align: center;
 }
 
 .technology {
-  min-height: 200px;
+  min-height: 64px;
   border: 2px solid black;
+  text-align: center;
+  font-size: 2rem;
+  padding: 8px;
+  color: #444;
+}
+
+.technology:hover {
+  box-shadow: 1px 1px 8px 1px mediumorchid;
+  color: #f3f2e7;
+  background-color: #222;
 }
 
 .sidebar {
@@ -6157,9 +6166,12 @@ readers do not read off random characters that represent icons */
 .sidebar a {
   color: black;
   font-weight: 300;
+  padding: 4px;
 }
 .sidebar a:hover {
+  box-shadow: 1px 1px 8px 1px mediumorchid;
   color: #f3f2e7;
+  background-color: #222;
 }
 .sidebar li {
   line-height: 0.5;
@@ -6309,7 +6321,7 @@ a {
 
 .main {
   flex: 1 0 auto;
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 .main p {
   width: 64rem;
@@ -6353,16 +6365,22 @@ a {
 
   .technology-container {
     grid-template-columns: none;
+    gap: 1em 1em;
+    align-content: baseline;
   }
-
   .technology-container h1 {
     grid-column: span 1;
+  }
+  .technology-container a {
+    margin-bottom: 0;
   }
 
   .technology {
     grid-column: span 3;
-    min-height: 200px;
+    min-height: 50px;
     border: 2px solid black;
+    max-width: 100%;
+    margin-bottom: 0;
   }
 
   .sidebar {
