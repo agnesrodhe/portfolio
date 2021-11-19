@@ -1,8 +1,58 @@
+@import 'variables';
+
 .technology-container {
     display: grid;
-    gap: 1em 1em;
+    gap: 2em 2em;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .technology-container h1 {
     grid-column: span 3;
+    text-align: center;
+}
+
+.technology {
+    min-height: 200px;
+    border: 2px solid black;
+}
+
+.sidebar {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+
+    h2 {
+        margin-top: 2rem;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+
+    a {
+        color: black;
+        font-weight: 300;
+    }
+
+    a:hover {
+        color: $nav-color;
+    }
+
+    li {
+        line-height: 0.5;
+        padding-left: 0;
+    }
+
+    ul {
+        padding-left: 0;
+        list-style-type: none;
+        margin-top: 2rem;
+    }
+}
+
+.article {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    min-width: 60%;
+    p,
+    pre {
+        width: auto;
+    }
 }
