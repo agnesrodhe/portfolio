@@ -6115,6 +6115,29 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+.technology-container {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.technology-container h1 {
+  grid-column: span 3;
+}
+
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6217,6 +6240,10 @@ a {
   background-color: #f3f2e7;
 }
 .nav ul li:active {
+  background-color: #f3f2e7;
+}
+
+.active {
   background-color: #f3f2e7;
 }
 
