@@ -14,7 +14,7 @@
 
 .technology {
     min-height: 64px;
-    border: 2px solid black;
+    border: 2px solid $icon-color;
     text-align: center;
     font-size: 2rem;
     padding: 8px;
@@ -22,7 +22,7 @@
 }
 
 .technology:hover {
-    box-shadow: 1px 1px 8px 1px mediumorchid;
+    box-shadow: 1px 1px 8px 1px $hover-color;
     color: $nav-color;
     background-color: $icon-color;
 }
@@ -38,13 +38,13 @@
     }
 
     a {
-        color: black;
+        color: $icon-color;
         font-weight: 300;
         padding: 4px;
     }
 
     a:hover {
-        box-shadow: 1px 1px 8px 1px mediumorchid;
+        box-shadow: 1px 1px 8px 1px $hover-color;
         color: $nav-color;
         background-color: $icon-color;
     }
@@ -65,6 +65,7 @@
     grid-column: 2 / 4;
     grid-row: 1 / 2;
     min-width: 60%;
+
     p,
     pre {
         width: auto;
