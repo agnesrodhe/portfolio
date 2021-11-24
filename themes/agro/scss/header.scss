@@ -1,36 +1,38 @@
-@import 'variables';
-
 .header,
 .site-header {
-    background-color: $header-color;
+    background-color: $background-color;
     display: flex;
     justify-content: space-between;
     width: 100%;
 
     .title,
     .logo {
-    padding: 1em;
+        padding: 1em 1em 1em 0;
+    }
+}
+
+.title {
+    width: 100%;
+
+    h1 {
+        font-size: 48px;
+        text-align: center;
+        margin-top: 7%;
+        line-height: 0.2;
     }
 
-    .title {
-        width: 100%;
-    
-        h1 {
-            font-size: 48px;
-            text-align: center;
-            margin-top: 7%;
-            line-height: 0.2;
-        }
-    
-        p {
-            text-align: center;
-        }
+    p {
+        text-align: center;
     }
 }
 
 .nav {
     background-color: $nav-back-color;
     
+    a {
+        color: $font-color;
+    }
+
     li {
         width: auto;
         margin-bottom: 0;

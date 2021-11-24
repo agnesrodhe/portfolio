@@ -6129,73 +6129,6 @@ readers do not read off random characters that represent icons */
   grid-column: span 3;
 }
 
-.technology-container {
-  display: grid;
-  gap: 2em 2em;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.technology-container h1 {
-  grid-column: span 3;
-  text-align: center;
-}
-.technology-container ul {
-  width: auto;
-}
-
-.technology {
-  min-height: 64px;
-  border: 2px solid #13755E;
-  text-align: center;
-  font-size: 2rem;
-  padding: 8px;
-  color: #333;
-}
-
-.technology:hover {
-  box-shadow: 1px 1px 8px 1px #27F5C5;
-  color: #27F5C5;
-  background-color: #13755E;
-}
-
-.sidebar {
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-.sidebar h2 {
-  margin-top: 2rem;
-  font-size: 20px;
-  text-decoration: underline;
-}
-.sidebar a {
-  color: #13755E;
-  font-weight: 300;
-  padding: 4px;
-}
-.sidebar a:hover {
-  box-shadow: 1px 1px 8px 1px #27F5C5;
-  color: #27F5C5;
-  background-color: #13755E;
-}
-.sidebar li {
-  line-height: 0.5;
-  padding-left: 0;
-}
-.sidebar ul {
-  padding-left: 0;
-  list-style-type: none;
-  margin-top: 2rem;
-}
-
-.article {
-  grid-column: 2/4;
-  grid-row: 1/2;
-  min-width: 60%;
-}
-.article p,
-.article pre {
-  width: auto;
-}
-
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6206,18 +6139,18 @@ blockquote {
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #333;
+  border: 1px solid #111;
   border-radius: 0.3em;
   background: #65B7A4;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
-  color: #C6EDE4;
+  color: #273330;
 }
 
 pre {
   padding: 0 1em;
-  border: 1px solid #333;
+  border: 1px solid #111;
   border-radius: 0.3em;
   background: #65B7A4;
   width: 64rem;
@@ -6231,7 +6164,7 @@ pre code {
   background: transparent;
   overflow-x: auto;
   line-height: 1.4;
-  color: #C6EDE4;
+  color: #273330;
 }
 
 html,
@@ -6243,7 +6176,7 @@ html body,
 body body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.4;
-  color: #333;
+  color: #84a79f;
 }
 
 p,
@@ -6282,7 +6215,7 @@ a {
 
 .header,
 .site-header {
-  background-color: #C6EDE4;
+  background-color: #071F19;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -6291,7 +6224,7 @@ a {
 .header .logo,
 .site-header .title,
 .site-header .logo {
-  padding: 1em;
+  padding: 1em 1em 1em 0;
 }
 .header .title,
 .site-header .title {
@@ -6310,21 +6243,24 @@ a {
 }
 
 .nav {
-  background-color: #1BA887;
+  background-color: #273330;
+}
+.nav a {
+  color: #84a79f;
 }
 .nav li {
   width: auto;
   margin-bottom: 0;
 }
 .nav ul li:hover {
-  background-color: #27F5C5;
+  background-color: #071F19;
 }
 .nav ul li:active {
-  background-color: #27F5C5;
+  background-color: #071F19;
 }
 
 .active {
-  background-color: #27F5C5;
+  background-color: #071F19;
 }
 
 .main {
@@ -6350,16 +6286,83 @@ a {
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #222;
+  border-top: 1px solid #13755E;
   min-height: 100px;
 }
 .footer a {
-  color: #13755E;
+  color: #273330;
   text-decoration: none;
 }
 
 .footer .social {
   font-size: 2rem;
+}
+
+.technology-container {
+  display: grid;
+  gap: 2em 2em;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.technology-container h1 {
+  grid-column: span 3;
+  text-align: center;
+}
+.technology-container ul {
+  width: auto;
+}
+
+.technology {
+  min-height: 64px;
+  border: 2px solid #273330;
+  text-align: center;
+  font-size: 2rem;
+  padding: 8px;
+  color: #84a79f;
+}
+
+.technology:hover {
+  box-shadow: 1px 1px 8px 1px #27F5C5;
+  color: #27F5C5;
+  background-color: #273330;
+}
+
+.sidebar {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.sidebar h2 {
+  margin-top: 2rem;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.sidebar a {
+  color: #273330;
+  font-weight: 300;
+  padding: 4px;
+}
+.sidebar a:hover {
+  box-shadow: 1px 1px 8px 1px #27F5C5;
+  color: #071F19;
+  background-color: #273330;
+}
+.sidebar li {
+  line-height: 0.5;
+  padding-left: 0;
+}
+.sidebar ul {
+  padding-left: 0;
+  list-style-type: none;
+  margin-top: 2rem;
+}
+
+.article {
+  grid-column: 2/4;
+  grid-row: 1/2;
+  min-width: 60%;
+}
+.article p,
+.article pre {
+  width: auto;
 }
 
 @media (max-width: 767px) {
@@ -6391,7 +6394,7 @@ a {
   .technology {
     grid-column: span 3;
     min-height: 50px;
-    border: 2px solid #13755E;
+    border: 2px solid #273330;
     max-width: 100%;
     margin-bottom: 0;
   }
@@ -6418,7 +6421,7 @@ a {
 }
 
 body {
-  background-color: black;
+  background-color: #071F19;
   display: flex;
   flex-direction: column;
   margin: 32px;
@@ -6440,4 +6443,5 @@ p {
 
 img {
   max-width: 100%;
+  filter: brightness(70%);
 }

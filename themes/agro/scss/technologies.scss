@@ -1,5 +1,3 @@
-@import 'variables';
-
 .technology-container {
     display: grid;
     gap: 2em 2em;
@@ -27,7 +25,7 @@
 
 .technology:hover {
     box-shadow: 1px 1px 8px 1px $hover-color;
-    color: $nav-color;
+    color: $hover-color;
     background-color: $icon-color;
 }
 
