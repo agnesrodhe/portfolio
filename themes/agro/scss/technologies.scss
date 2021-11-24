@@ -2,12 +2,16 @@
 
 .technology-container {
     display: grid;
-    gap: 3em 3em;
+    gap: 2em 2em;
     grid-template-columns: 1fr 1fr 1fr;
 
     h1 {
         grid-column: span 3;
         text-align: center;
+    }
+
+    ul {
+        width: auto;
     }
 
 }

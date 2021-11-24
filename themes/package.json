@@ -7,11 +7,17 @@
     "example": "example"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass agro/scss/style.scss agro/css/style.css --no-source-map",
-    "style-min": "sass agro/scss/style.scss agro/css/style.min.css --no-source-map --style compressed",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "watch": "sass agro/scss/style.scss:agro/css/style.css agro/scss/style-dark.scss:agro/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass agro/scss/style.scss:agro/css/style.min.css agro/scss/style-dark.scss:agro/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass agro/scss/style-dark.scss agro/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass agro/scss/style-dark.scss agro/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass agro/scss/style.scss agro/css/style.css --no-source-map",
+    "style-light-min": "sass agro/scss/style.scss agro/css/style.min.css --no-source-map --style compressed"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",

@@ -1,11 +1,20 @@
-
+@import 'variables';
 .main {
+    padding: 16px;
+    // border: 2px solid $border-color;
+    // border-top: none;
+    // background-color: $main-color;
     flex: 1 0 auto;
     margin-bottom: 48px;
 
     p {
         width: 64rem;
         max-width: 100%;
+    }
+
+    ul,
+    ol {
+        width: 64rem;
     }
 
     .meimage {

@@ -6129,6 +6129,73 @@ readers do not read off random characters that represent icons */
   grid-column: span 3;
 }
 
+.technology-container {
+  display: grid;
+  gap: 2em 2em;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.technology-container h1 {
+  grid-column: span 3;
+  text-align: center;
+}
+.technology-container ul {
+  width: auto;
+}
+
+.technology {
+  min-height: 64px;
+  border: 2px solid #13755E;
+  text-align: center;
+  font-size: 2rem;
+  padding: 8px;
+  color: #333;
+}
+
+.technology:hover {
+  box-shadow: 1px 1px 8px 1px #27F5C5;
+  color: #27F5C5;
+  background-color: #13755E;
+}
+
+.sidebar {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.sidebar h2 {
+  margin-top: 2rem;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.sidebar a {
+  color: #13755E;
+  font-weight: 300;
+  padding: 4px;
+}
+.sidebar a:hover {
+  box-shadow: 1px 1px 8px 1px #27F5C5;
+  color: #27F5C5;
+  background-color: #13755E;
+}
+.sidebar li {
+  line-height: 0.5;
+  padding-left: 0;
+}
+.sidebar ul {
+  padding-left: 0;
+  list-style-type: none;
+  margin-top: 2rem;
+}
+
+.article {
+  grid-column: 2/4;
+  grid-row: 1/2;
+  min-width: 60%;
+}
+.article p,
+.article pre {
+  width: auto;
+}
+
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6295,73 +6362,6 @@ a {
   font-size: 2rem;
 }
 
-.technology-container {
-  display: grid;
-  gap: 2em 2em;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.technology-container h1 {
-  grid-column: span 3;
-  text-align: center;
-}
-.technology-container ul {
-  width: auto;
-}
-
-.technology {
-  min-height: 64px;
-  border: 2px solid #13755E;
-  text-align: center;
-  font-size: 2rem;
-  padding: 8px;
-  color: #333;
-}
-
-.technology:hover {
-  box-shadow: 1px 1px 8px 1px #27F5C5;
-  color: #27F5C5;
-  background-color: #13755E;
-}
-
-.sidebar {
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-.sidebar h2 {
-  margin-top: 2rem;
-  font-size: 20px;
-  text-decoration: underline;
-}
-.sidebar a {
-  color: #13755E;
-  font-weight: 300;
-  padding: 4px;
-}
-.sidebar a:hover {
-  box-shadow: 1px 1px 8px 1px #27F5C5;
-  color: #27F5C5;
-  background-color: #13755E;
-}
-.sidebar li {
-  line-height: 0.5;
-  padding-left: 0;
-}
-.sidebar ul {
-  padding-left: 0;
-  list-style-type: none;
-  margin-top: 2rem;
-}
-
-.article {
-  grid-column: 2/4;
-  grid-row: 1/2;
-  min-width: 60%;
-}
-.article p,
-.article pre {
-  width: auto;
-}
-
 @media (max-width: 767px) {
   .title,
 .logo {
@@ -6418,7 +6418,7 @@ a {
 }
 
 body {
-  background-color: #C6EDE4;
+  background-color: black;
   display: flex;
   flex-direction: column;
   margin: 32px;
