@@ -19,6 +19,7 @@
         text-align: center;
         margin-top: 7%;
         line-height: 0.2;
+        text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     p {
@@ -26,9 +27,16 @@
     }
 }
 
+.logo {
+    img {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
 .nav {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: $nav-back-color;
-    
+
     a {
         color: $font-color;
     }
@@ -41,7 +49,7 @@
     ul li:hover {
         background-color: $nav-color;
     }
-    
+
     ul li:active {
         background-color: $nav-color;
     }

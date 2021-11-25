@@ -6253,12 +6253,18 @@ a:hover {
   text-align: center;
   margin-top: 7%;
   line-height: 0.2;
+  text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .title p {
   text-align: center;
 }
 
+.logo img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .nav {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #1ba887;
 }
 .nav a {
@@ -6383,6 +6389,9 @@ a:hover {
 
 .snapshot {
   max-width: 80%;
+}
+.snapshot img {
+  filter: brightness(100%);
 }
 
 @media (max-width: 767px) {

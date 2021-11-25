@@ -76,4 +76,7 @@
 
 .snapshot {
     max-width: 80%;
+    img {
+        filter: brightness(100%);
+    }
 }

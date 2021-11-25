@@ -20,7 +20,7 @@ Vår utgångspunkt är att Apple riktar sig mot företag och “kreativa” anv�
 Metod
 -----------------------
 
-För att genomföra undersökningen använder vi oss av ColorZilla color picker och kollar vilka färger som företagen använder på sina webbsidor. Sidorna använder sig inte av ett strikt färgschema så som monokromt eller analogt schema. Det finns flera variationer och accentfärger beroende på vilken produkt man tittar på. Vi har dock försökt att välja ut de färger som förekommer mest frekvent på deras sidor, oavsett var man befinner sig på webbplatsen. Vi har använt oss av Adobe Color-Wheel för att avgöra vilket typ av färgschema som webbplatserna använder sig av.
+För att genomföra undersökningen använder vi oss av ColorZilla color picker och kollar vilka färger som företagen använder på sina webbsidor. Vi har försökt att välja ut de färger som förekommer mest frekvent på deras sidor, oavsett var man befinner sig på webbplatsen. Vi har använt oss av Adobe Color-Wheel för att avgöra vilket typ av färgschema som webbplatserna använder sig av.
 
 Resultat
 -----------------------
@@ -62,7 +62,7 @@ Från Dells webbsida kan vi plocka ut vit som en grundfärg och sedan när vi l�
 
 ### Razer
 
-Razer har ett huvudfärgtema som utgår från en mörk gråsvart färg. Vi tänker att det skulle kunna vara ett komplementfärgschema alternativt färgschema utifrån nyanser. Sedan använder de sig av accentfärgen grön som också återfinns i deras logga. Deras accentfärg används i stor utsträckning på hemsidan. När vi hamnar på sidan där de säljer Razer Book, en produkt som riktar sig mer mot produktivitet och skapande, växlar färgschemat från ett mörk gråsvart till ett ljusare grå med inslag av brunt och rosa. Kollar vi i color adobe skulle det kunna matcha med ett sammansatt färgschema. På Razers hemsida används typsnittet Roboto för den mesta texten förutom i headern där typsnittet är Razer F5, båda är i stilen sans-serif. Razer färgval påminner stark om en klassisk terminalfärg där det är en grön text mot en svart bakgrund, men som samtidigt även speglar vad man skulle kunna kalla för typiska “gamer” färger. Då deras främsta kunder är personer som spelar eller har ett stort intresse för teknik är det förmodligen ett tilltalande färgschema för denna målgrupp.
+Razer har ett huvudfärgtema som utgår från en mörk gråsvart färg. Vi tänker att det skulle kunna vara ett komplementfärgschema alternativt färgschema utifrån nyanser. Sedan använder de sig av accentfärgen grön som också återfinns i deras logga. Deras accentfärg används i stor utsträckning på hemsidan. När vi hamnar på sidan där de säljer Razer Book, en produkt som riktar sig mer mot produktivitet och skapande, växlar färgschemat från ett mörk gråsvart till ett ljusare grå med inslag av brunt och rosa. Kollar vi i color adobe skulle det kunna matcha med ett sammansatt färgschema. På Razers hemsida används typsnittet Roboto för den mesta texten förutom i headern där typsnittet är Razer F5, båda är i stilen sans-serif. Razers färgval påminner stark om en klassisk terminalfärg där det är en grön text mot en svart bakgrund, men som samtidigt även speglar vad man skulle kunna kalla för typiska “gamer” färger. Då deras främsta kunder är personer som spelar eller har ett stort intresse för teknik är det förmodligen ett tilltalande färgschema för denna målgrupp.
 
 #### Färgschema 1 för Razer
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -92,9 +92,9 @@ Razer har ett huvudfärgtema som utgår från en mörk gråsvart färg. Vi tänk
 Analys
 -----------------------
 
-I den här undersökningen ser vi hur tre olika teknikföretag använder sig av färg och typsnitt på sina hemsidor. De är alla tydliga med vilken målgrupp de riktar sig till och det ser vi framförallt på Razers hemsida. På den sidan riktar de sig främst riktar mot gaming och använder ett mörkt färgschema men när de vill nå en annan målgrupp och sälja en laptop för mer vardagsanvändning så ändrar de färgschemat så att det mer liknar Apple och Dell. 
+I den här undersökningen ser vi hur tre olika teknikföretag använder sig av färg och typsnitt på sina hemsidor. Sidorna använder sig inte tydligt av ett strikt färgschema så som monokromt eller analogt schema. Det finns flera variationer och accentfärger beroende på vilken produkt man tittar på. De är alla tydliga med vilken målgrupp de riktar sig till och det ser vi framförallt på Razers hemsida. På den sidan riktar de sig främst mot gaming och använder ett mörkt färgschema men när de vill nå en annan målgrupp och sälja en laptop för mer vardagsanvändning så ändrar de färgschemat så att det mer liknar Apple och Dell. 
 
-Vi anser att de antaganden vi gick in i analysen med bekräftades av de olika företagens val och användande av färger på deras sidor. Dell gav känslan av strictly business med sitt vita och gråa tema accentuerat av en blå färg. Apples ljusa och grå tema bröts av med klara färger för att ge en mer livfull känsla och Razer var svart, grått och giftigt grön.
+Vi anser att de antaganden vi gick in i analysen med bekräftades av de olika företagens val och användande av färger på deras sidor. Dell gav känslan av strictly business med sitt vita och gråa tema accentuerat av en blå färg. Apples ljusa och grå tema bröts av med klara färger för att ge en mer livfull känsla och Razer var svart, grått och giftigt grön. 
 
 Referenser
 -----------------------
