@@ -13,4 +13,3 @@ Jag heter Agnes Rodhe och jag är student på utbildningen Webbprogrammering 120
 Jag är uppvuxen i Falun, bor i Malmö men flyttar i december 2021 till Stockholm. I grunden är jag utbildad dansare och danspedagog men förra året bestämde jag mig för att jag ville utveckla mina kunskaper inom programmering. Efter ett år på Kvinnofolkhögskolans utbildning i grunderna inom programmering ser jag nu fram emot att fördjupa mig här på BTH.
 
 Den här portfolion kommer jag att uppdatera och arbeta med under kursen *Teknisk webbdesign och användbarhet*. 
-
