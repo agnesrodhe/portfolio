@@ -26,6 +26,17 @@
         }
     }
 
+    .gallery {
+        grid-template-columns: none;
+        gap: 1em 1em;
+        align-content: baseline;
+        margin: 0;
+
+        h1 {
+            grid-column: 1;
+        }
+    }
+
     .technology {
         grid-column: span 3;
         min-height: 50px;

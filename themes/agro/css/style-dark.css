@@ -6129,6 +6129,39 @@ readers do not read off random characters that represent icons */
   grid-column: span 3;
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: auto auto auto auto;
+  gap: 1em;
+  margin-right: 2em;
+}
+.gallery h1 {
+  grid-column: 1/4;
+  text-align: center;
+}
+.gallery picture {
+  max-width: 100%;
+}
+.gallery picture img {
+  width: 100%;
+}
+
+.embed-container {
+  position: relative;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.embed-container iframe,
+.embed-container embed,
+.embed-container object {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6358,13 +6391,13 @@ a:hover {
   text-decoration: underline;
 }
 .sidebar a {
-  color: #273330;
+  color: #84a79f;
   font-weight: 300;
   padding: 4px;
 }
 .sidebar a:hover {
   box-shadow: 1px 1px 8px 1px #27f5c5;
-  color: #071f19;
+  color: #84a79f;
   background-color: #273330;
 }
 .sidebar li {
@@ -6418,6 +6451,16 @@ a:hover {
   }
   .technology-container a {
     margin-bottom: 0;
+  }
+
+  .gallery {
+    grid-template-columns: none;
+    gap: 1em 1em;
+    align-content: baseline;
+    margin: 0;
+  }
+  .gallery h1 {
+    grid-column: 1;
   }
 
   .technology {

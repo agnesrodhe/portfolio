@@ -40,14 +40,14 @@
     }
 
     a {
-        color: $icon-color;
+        color: $link-color;
         font-weight: 300;
         padding: 4px;
     }
 
     a:hover {
         box-shadow: 1px 1px 8px 1px $hover-color;
-        color: $nav-color;
+        color: $link-hover-color;
         background-color: $icon-color;
     }
 
@@ -76,6 +76,7 @@
 
 .snapshot {
     max-width: 80%;
+    
     img {
         filter: brightness(100%);
     }

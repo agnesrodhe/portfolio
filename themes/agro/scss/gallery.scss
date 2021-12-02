@@ -1,0 +1,36 @@
+.gallery {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto auto auto;
+    gap: 1em;
+    margin-right: 2em;
+
+    h1 {
+        grid-column: 1 / 4;
+        text-align: center;
+    }
+
+    picture {
+        max-width: 100%;
+    }
+
+    picture img {
+        width: 100%;
+    }
+}
+
+.embed-container {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+
+    iframe,
+    embed,
+    object {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
