@@ -1,5 +1,5 @@
 ---
-Title: Gallery
+Title: GALLERY
 Description: Page with a gallery
 Template: gallery
 Images:
