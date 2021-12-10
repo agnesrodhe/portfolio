@@ -1,8 +1,5 @@
 .main {
     padding: 16px;
-    // border: 2px solid $border-color;
-    // border-top: none;
-    // background-color: $main-color;
     flex: 1 0 auto;
     margin-bottom: 48px;
 
@@ -21,5 +18,47 @@
         margin-left: 10px;
         margin-bottom: 10px;
         max-width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .mainFlex {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        grid-template-rows: 320px;
+        gap: 3em;
+        text-align: center;
+    }
+
+    .mainBox1 {
+        grid-column: 1 /span 1;
+        border: 4px dotted $link-color;
+        opacity: 0.5;
+        height: fit-content;
+        padding: 8px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .mainBox2 {
+        grid-column: 2 / span 2;
+        border: 4px dashed $link-hover-color;
+        opacity: 0.5;
+        height: fit-content;
+        padding: 8px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .mainBox3 {
+        grid-column: 4 / span 1;
+        border: 4px dotted $link-color;
+        opacity: 0.5;
+        height: fit-content;
+        padding: 8px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .mainBox1:hover,
+    .mainBox2:hover,
+    .mainBox3:hover {
+        opacity: 1;
     }
 }
